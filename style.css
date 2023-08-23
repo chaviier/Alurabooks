@@ -1,7 +1,11 @@
-
+@import url(./styles/header.css);
 /* Paleta de cores do projeto */
 :root {
  --cor-principal: #EBECEE;
+ --branco: #fff;
+ --laranja: #EB9B00;
+ --azul-grad: linear-gradient(97deg, #002F52 35%, #326589 160%);
+ --fonte: 'Poppins', sans-serif;
 }
 
 /* Reset css */
@@ -10,11 +14,13 @@
     margin:0;
     vertical-align:baseline;
     list-style:none;
-    border:0
+    border:0;
+    text-decoration: none;
     }
 
 body {
     background-color: var(--cor-principal);
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
