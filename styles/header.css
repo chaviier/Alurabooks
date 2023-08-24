@@ -50,10 +50,10 @@
 }
 
 .lista__menu__link {
-    background-color: var(--azul-grad);
+    background: var(--azul-grad, linear-gradient(160deg, #002F52 0%, #326589 100%));
     background-clip: text;
     -webkit-background-clip: text;
-    /* -webkit-text-fill-color: transparent; */
+    -webkit-text-fill-color: transparent;   
     text-transform: uppercase;
 }
 
