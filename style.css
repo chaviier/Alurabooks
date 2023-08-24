@@ -1,5 +1,6 @@
 @import url(./styles/header.css);
 @import url(./styles/banner.css);
+@import url(./styles/carrosel.css);
 
 
 /* Paleta de cores do projeto */
@@ -9,6 +10,7 @@
  --laranja: #EB9B00;
  --azul-grad: linear-gradient(97deg, #002F52 35%, #326589 160%);
  --fonte: 'Poppins', sans-serif;
+ --azul: #002F52;
 }
 
 /* Reset css */
@@ -24,6 +26,8 @@
 body {
     background-color: var(--cor-principal);
     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 h1 {
