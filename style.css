@@ -1,4 +1,7 @@
 @import url(./styles/header.css);
+@import url(./styles/banner.css);
+
+
 /* Paleta de cores do projeto */
 :root {
  --cor-principal: #EBECEE;
